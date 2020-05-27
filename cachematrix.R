@@ -10,9 +10,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get, 
        setInverse = setInverse, 
        getInverse = getInverse)
-}
 
-##Please include your own comment to explain your code (Required in Rubric)
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
